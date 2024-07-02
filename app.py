@@ -35,7 +35,7 @@ def food():
         obj = {
             "client_ip": IP,
             "greeting": f"Hello, {visitor_name}!, the temperature is {int(current_temperature) - 273.5} degrees Celsius in {city}",
-"location": city
+            "location": city
         }
         
     return jsonify(obj)
